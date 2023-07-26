@@ -1,0 +1,35 @@
+.main-heading{
+    background-image: linear-gradient(to right,#42f5e3, #42adf5);
+    border-radius:20px;
+    padding:10px;
+    text-align:center;
+}
+
+.header {
+    padding: 1rem;
+    border-bottom: solid #f6f3f0;
+  }
+.header-items{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    
+}
+.to-center{
+    text-align: center;
+}
+  .heading{
+    color: #2f63f3;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+.link-item{
+  font-weight: 400;
+  color: #100f0e;
+
+}
+span{
+    color: #fc8300;
+}
