@@ -19,7 +19,7 @@ const ProductDetails = () => {
     <div className='products-details-main-container'>
         <h2 className='product-detail-heading'>Product Details</h2>
         <div className='product-container'>
-            <img className='product-image' src={product.image} alt={product.name} />
+            <img className='product-image' src={product.image} alt={product.title} />
             <div className='product-detail-desc-container'>
                 <h3 className='product-detail-name'>{product.title}</h3>
                 <p className='para'>Price: {product.price} rs</p>
