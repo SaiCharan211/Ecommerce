@@ -10,8 +10,8 @@ function ProductList ()  {
       {Products.map((item) => (
         <Link className='product-details-link' to={`/product/${item.id}`}>
           <div className='product' key={item.id}>
-          <img className='product-image' src={item.image} alt={item.name} />
-          <h3>{item.name}</h3>
+          <img className='product-image' src={item.image} alt={item.title} />
+          <h3>{item.title}</h3>
           <p className='description'>Price: {item.price} rs</p>
           <p className='description'>Quantity:{item.Quatity}</p>
           </div></Link>
